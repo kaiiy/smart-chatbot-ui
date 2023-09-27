@@ -43,3 +43,12 @@ pnpm-lock.yaml
 # docker
 /docker-volumes
 
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+node_modules/

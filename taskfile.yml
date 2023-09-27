@@ -5,8 +5,8 @@ version: 3
 tasks:
   up:
     cmds:
-      - npm i
+      - yarn
       - docker compose -f docker-compose.dev.yml up -d
-      - npm run dev
+      - yarn dev
     aliases: [default]
   down: docker compose -f docker-compose.dev.yml down
